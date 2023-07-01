@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+  
 }
+
+
+.card {
+  color: rgb(0, 238, 255);
+  background-color: #0000004a;
+  
+  width: 10000px;
+  
+  
+}
+
+
+button {
+  border: 1px solid rgb(228, 18, 18);
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgb(2, 245, 152);
+  position:absolute;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
